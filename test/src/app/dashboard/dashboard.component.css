@@ -1,20 +1,22 @@
-body {
-    align-items: center;
-    background-color: #abe5fb;
-    display: flex;
-    justify-content: center;
-    height: 100%;
+#mainScreen {
+
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  position: relative;
   }
-  
+   
   .form {
     background-color: #15172b;
     border-radius: 20px;
     box-sizing: border-box;
-    height: 450px;
+    height: 500px;
     padding: 20px;
     width: 320px;
     margin: 0 auto;
     margin-top: 100px;
+  
+    
   }
   
   .title {
@@ -122,5 +124,10 @@ body {
   
   .submit:active {
     background-color: #06b;
+  }
+
+  .para{
+    color: #8084bd;
+    text-decoration: underline;
   }
   
